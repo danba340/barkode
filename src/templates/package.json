@@ -1,0 +1,27 @@
+{
+  "name": "barkode",
+  "version": "1.0.0",
+  "description": "the website of barkode",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "jquery": "^2.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danba340/barkode.git"
+  },
+  "author": "Daniel Bark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danba340/barkode/issues"
+  },
+  "homepage": "https://github.com/danba340/barkode#readme"
+}
