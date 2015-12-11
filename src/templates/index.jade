@@ -1,16 +1,25 @@
 doctype html
 html
   head
-    title BarKode
+    title barkode
     link(rel='stylesheet', href='css/main.css')
+    link(rel="shortcut icon" href="images/favicon.ico")
+    link(href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css')
   body
+
+    div.navbar
+      ul
+        li
+          a(href='#') What
+        li
+          a(href='#') Where
+        li
+          a(href='#') Who
     div.covercontainer
-      video(poster='/images/poster.jpg' autoplay='true', loop)
+      video(poster='/images/poster.jpg' autoplay='true', loop, muted)
         source(src='/videos/lego.mp4', type='video/mp4')
         source(src='/videos/lego.webm', type='video/webm')
       div.covertext
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    div.footer
   script(src='js/main.js')
