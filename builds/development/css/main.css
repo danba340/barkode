@@ -9,10 +9,9 @@ video {
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: 1;
-  margin-bottom: 0px; }
+  z-index: 1; }
 
-/* line 17, stdin */
+/* line 16, stdin */
 .covertext {
   position: relative;
   background: rgba(0, 0, 0, 0.4);
@@ -21,7 +20,7 @@ video {
   left: 0;
   right: 0; }
 
-/* line 26, stdin */
+/* line 25, stdin */
 .navbar {
   position: absolute;
   top: 0;
@@ -31,17 +30,17 @@ video {
   z-index: 10;
   overflow: hidden; }
 
-/* line 36, stdin */
+/* line 35, stdin */
 .navbar li {
   float: left;
   margin-left: 10px;
   list-style-type: none; }
 
-/* line 42, stdin */
+/* line 41, stdin */
 .navbar li a {
   color: #ffffff;
   text-decoration: none; }
 
-/* line 47, stdin */
+/* line 46, stdin */
 .navbar li a:hover {
   color: grey; }
